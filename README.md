@@ -2,9 +2,10 @@
 This Github page contains the Brainstorm process to compute Shannon Entropy values from the iEEG signal
 ## Bibtex
 If you find our project is useful in your research, please cite Makaram et al. (2025):
-```
+
+``
 Makaram N, Pesce M, Tsuboyama M, Bolton J, Harmon J, Papadelis C, Stone SS, Pearl PL, Rotenberg A, Grant PE, Tamilia E. Targeting Interictal Low-Entropy Zones during Epilepsy Surgery Predicts Successful Outcomes in Pediatric Drug-Resistant Epilepsy. Epilepsia (In Production) 2025
-```
+``
 ## Prerequisits
 - Matlab
 - Brainstorm toolbox
