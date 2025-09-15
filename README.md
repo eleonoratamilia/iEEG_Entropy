@@ -9,7 +9,7 @@ If you find our project is useful in your research, please cite:
 - Matlab
 - Brainstorm toolbox
 
-##Usage
+## Usage
 Download the latest code from the github page and add it to your /$HOME/.brainstorm/process/ folder.
 process_entropy_NM.m 
 
