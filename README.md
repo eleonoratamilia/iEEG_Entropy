@@ -4,7 +4,7 @@ This Github page contains the Brainstorm process to compute Shannon Entropy valu
 If you find our project is useful in your research, please cite Makaram et al. (2025):
 
 ``
-Makaram N, Pesce M, Tsuboyama M, Bolton J, Harmon J, Papadelis C, Stone SS, Pearl PL, Rotenberg A, Grant PE, Tamilia E. Targeting Interictal Low-Entropy Zones during Epilepsy Surgery Predicts Successful Outcomes in Pediatric Drug-Resistant Epilepsy. Epilepsia (In Production) 2025
+Makaram N, Pesce M, Tsuboyama M, Bolton J, Harmon J, Papadelis C, Stone S, Pearl P, Rotenberg A, Grant EP, Tamilia E. Targeting interictal low-entropy zones during epilepsy surgery predicts successful outcomes in pediatric drug-resistant epilepsy. Epilepsia. 2025 Sep 20. doi: 10.1111/epi.18636. PMID: 40974546.
 ``
 ## Prerequisits
 - Matlab
