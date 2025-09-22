@@ -15,18 +15,36 @@ Download the latest code from the github page and add it to your /$HOME/.brainst
 process_normalizedshannon_entropy.m 
 
 
-Steps to use it with brainstorm
+# Steps to use it with brainstorm
 1) Preprocess your signal appropriately and segment to epochs. If you are planning to replicate our work then apply notch and bandpass filter (1 - 500 Hz), apply bipolar montage and then import 3s epochs.
+
+**Preprocessing the signal**
+
 ![Preprocessing the signal](imgs/fig1.png)
-2) Once you open brainstorm you will find this code in the custom folder
-3) Drag your signal/epochs into the brainstorm process tab and run the function from the custom code.
+
+3) Once you open brainstorm you will find this code in the custom folder
+4) Drag your signal/epochs into the brainstorm process tab and run the function from the custom code.
+
+**Select appropriate channels**
+
 ![Select appropriate channels](imgs/fig2.png)
 
+**Running the code**
+
 ![Running the code](imgs/fig3.png)
+
 4) This will generate a table inside the result_datafile (T_op) which can be exported to matlab and analysed. The generated output is also inside the result_datafile.TF
 5) The function will return one file per epoch. Take the median/average using brainstorm function to obtain a single file
+
+**Averaged Entropy**
+
 ![Averaged Entropy](imgs/fig4.png)
+
+**Representative Output**
+
 ![Representative Outputs](imgs/fig5.png)
-A 3D plot can also be generated.
+
+**3D visualization**
+
 ![3D visualization](imgs/fig3d.gif)
 
