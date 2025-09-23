@@ -23,10 +23,10 @@ end
 %% ===== GET DESCRIPTION =====
 function sProcess = GetDescription() %#ok<DEFNU>
 % Description the process
-sProcess.Comment     = 'Normalized_Shannon_Entropy_NM';
+sProcess.Comment     = 'Normalized_Shannon_Entropy';
 sProcess.FileTag     = 'Custom';
 sProcess.Category    = 'Custom';
-sProcess.SubGroup    = 'Custom';
+sProcess.SubGroup    = 'Entropy';
 sProcess.Index       = 72;
 sProcess.Description = '';
 % Definition of the input accepted by this process
