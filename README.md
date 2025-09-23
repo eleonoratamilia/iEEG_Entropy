@@ -16,6 +16,7 @@ process_normalizedshannon_entropy.m
 
 
 # Steps to use it with brainstorm
+<<<<<<< HEAD
 1) Add the file "process_normalizedshannon_entropy.m" to you brainstorm process folder (hidden folder: /$HOME/.brainstorm/process/). Once this is done, you will find this function "process_normalizedshannon_entropy" in the list of "Entropy" function you can run through the Brainstorm process tab.
    
 2) Now, in Brainstorm, preprocess your signal appropriately and import the epoch/s you want to extract entropy from (right-click on raw file, "Import in database"). If you are planning to replicate our work then import 3-second epochs, apply notch and bandpass filter (1 - 500 Hz) and apply bipolar montage.
@@ -33,11 +34,31 @@ For the individual epoch outputs (not the averaged), you will also find a table 
 **Running Entropy Analysis**
 
 ![Running Entropy Analysis](imgs/fig1.png)
+=======
+1) Preprocess your signal appropriately and segment to epochs. If you are planning to replicate our work then apply notch and bandpass filter (1 - 500 Hz), apply bipolar montage and then import 3s epochs.
+
+**Preprocessing the signal**
+
+![Preprocessing the signal](imgs/fig1.png)
+
+3) Once you open brainstorm you will find this code in the custom folder
+4) Drag your signal/epochs into the brainstorm process tab and run the function from the custom code.
+>>>>>>> d6535b2a954cfcdc1405d18d34e9e22de607c5e8
 
 **Select appropriate channels**
 
 ![Select appropriate channels](imgs/fig2.png)
 
+<<<<<<< HEAD
+=======
+**Running the code**
+
+![Running the code](imgs/fig3.png)
+
+4) This will generate a table inside the result_datafile (T_op) which can be exported to matlab and analysed. The generated output is also inside the result_datafile.TF
+5) The function will return one file per epoch. Take the median/average using brainstorm function to obtain a single file
+
+>>>>>>> d6535b2a954cfcdc1405d18d34e9e22de607c5e8
 **Averaged Entropy**
 
 ![Averaged Entropy](imgs/fig4.png)
